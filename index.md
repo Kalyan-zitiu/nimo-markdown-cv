@@ -65,6 +65,5 @@ Supported arguments:
 
 ## 证书奖项
 
-- 
-- 2023 机甲大师超级对抗赛·全国赛 二等奖
-- 团体程序设计天梯赛省级 三等奖
+- AWS Certified Solutions Architect -Associate
+- CNCF Certified Kubernetes Administrator(CKA) 认证
