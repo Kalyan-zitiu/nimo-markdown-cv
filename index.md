@@ -57,11 +57,16 @@ Supported arguments:
 
 ## 相关技能
 
-- 编程语言：能熟练编写bash与python脚本，可以使用Go与C进行中间件和底层组件开发，可以使用vue进行前端开发。
-- 操作系统：使用Arch Linux作为日常使用的操作系统，拥有个人维护的[AUR包](https://aur.archlinux.org/packages?O=0&SeB=m&K=kawhicurry&outdated=&SB=m&SO=d&PP=50&submit=Go)。了解systemd，ebpf。
-- 性能分析：了解性能分析的基本方法与工具，能熟练使用sysstat、ebpf工具对系统性能问题进行分析。
-- 语言能力：良好的中英语阅读能力与文档编写能力。
-- 其他能力：了解SRE的基本观念，有标准化意识，有主动发现与解决问题的能力
+熟悉主流云服务提供商（如AWS、Azure、Google Cloud Platform）的服务和管理工具。
+掌握虚拟化技术，包括VMware、Hyper-V或KVM。
+熟练使用容器化技术和容器编排工具，如Docker和Kubernetes。
+能够编写自动化脚本，熟悉至少一种脚本语言，如Python、Bash或PowerShell。
+了解持续集成和持续部署（CI/CD）流程，以及相关工具，如Jenkins、GitLab CI或Travis CI。
+熟悉基础设施即代码（IaC）工具，如Terraform、Ansible或CloudFormation。
+具备网络基础知识，包括TCP/IP、DNS、HTTP/HTTPS以及负载均衡器。
+掌握系统监控、日志管理和报警工具，如Prometheus、Grafana、ELK Stack或Splunk。
+理解安全最佳实践，包括网络安全、数据加密和访问控制。
+具备故障排查和性能优化的能力，能够快速响应并解决生产环境问题
 
 ## 证书奖项
 
