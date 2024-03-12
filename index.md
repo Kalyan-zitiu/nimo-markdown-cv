@@ -1,15 +1,15 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: Kalyan's Resume
 email:
-  url: mailto:nimo@cmu.edu
-  text: nimo@cmu.edu
+  url: mailto:kalyan.zitiu@gmail.com
+  text: kalyan.zitiu@gmail.com
 homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: https://www.kalyan.life
+  text: kalyan.life
 ---
 
-# Wode **Ni**
+# Huangzitao
 
 <!--
 include contact information from the front matter
