@@ -9,12 +9,12 @@ homepage:
   text: kalyan.life
 ---
 
-<table>
+<table style="width:100%;">
   <tr>
-    <td>黄梓涛</td>
-    <td><img src="https://gcore.jsdelivr.net/gh/Kalyan-zitiu/TyporaIMG/img/tou.jpg" alt="" width="200"/></td>
-  </table>
-</tr>
+    <td style="text-align:left;">黄梓涛</td>
+    <td style="text-align:right;"><img src="https://gcore.jsdelivr.net/gh/Kalyan-zitiu/TyporaIMG/img/tou.jpg" alt="" width="200"/></td>
+  </tr>
+</table>
 
 <!--
 include contact information from the front matter
