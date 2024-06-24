@@ -22,7 +22,7 @@ include contact information from the front matter
 Supported arguments:
     - homepage: url, text
     - email
-    - phone
+    - phone: text
 
 -->
 
