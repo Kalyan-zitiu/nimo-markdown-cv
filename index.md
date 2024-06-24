@@ -23,7 +23,7 @@ Supported arguments:
 -->
 
 {% include cv-contact.html %}
-# 黄梓涛
+
 ## 教育经历
 
 ### 华南理工大学广州学院 本科 计算机学院 软件工程 `2021-至今`
