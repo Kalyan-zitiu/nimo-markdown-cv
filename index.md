@@ -7,7 +7,7 @@ email:
 homepage:
   url: https://blog.zitiu.top/
   text: kalyan.life
-dianhua：
+dianhua:
   text: 19866803602
 ---
 
