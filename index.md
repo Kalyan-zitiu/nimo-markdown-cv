@@ -10,7 +10,7 @@ homepage:
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <span style="font-size: 24px;">黄梓涛</span>
+  <span style="font-size: 24px;">     </span>
   <img src="https://gcore.jsdelivr.net/gh/Kalyan-zitiu/TyporaIMG/img/tou.jpg" style="width: 200px; height: auto;"/>
 </div>
 
@@ -23,7 +23,7 @@ Supported arguments:
 -->
 
 {% include cv-contact.html %}
-
+# 黄梓涛
 ## 教育经历
 
 ### 华南理工大学广州学院 本科 计算机学院 软件工程 `2021-至今`
