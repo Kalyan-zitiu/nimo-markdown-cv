@@ -9,8 +9,9 @@ homepage:
   text: kalyan.life
 ---
 
-<div align=right>
-<img src="https://gcore.jsdelivr.net/gh/Kalyan-zitiu/TyporaIMG/img/tou.jpg"/>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <span style="font-size: 24px;">黄梓涛</span>
+  <img src="https://gcore.jsdelivr.net/gh/Kalyan-zitiu/TyporaIMG/img/tou.jpg" style="width: 100px; height: auto;"/>
 </div>
 
 <!--
