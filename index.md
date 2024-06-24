@@ -9,6 +9,7 @@ homepage:
   text: kalyan.life
 phone:
   text: 19866803602
+  
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -20,9 +21,9 @@ phone:
 include contact information from the front matter
 Supported arguments:
     - homepage: url, text
-    - phone
     - email
     - phone
+
 -->
 
 {% include cv-contact.html %}
