@@ -7,7 +7,8 @@ email:
 homepage:
   url: https://blog.zitiu.top/
   text: kalyan.life
-dianhua:
+phone:
+  url: 
   text: 19866803602
 ---
 
@@ -22,7 +23,7 @@ Supported arguments:
     - homepage: url, text
     - phone
     - email
-    - dianhua
+    - phone
 -->
 
 {% include cv-contact.html %}
