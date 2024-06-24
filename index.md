@@ -76,8 +76,8 @@ Supported arguments:
 
 
 ## 证书奖项
-- AWS Certified Solutions Architect -Associate（SAA）Udemy 认证
-- CNCF Certified Kubernetes Administrator(CKA) Udemy 认证
+- AWS Certified Solutions Architect -Associate（SAA） 认证
+- CNCF Certified Kubernetes Administrator(CKA)  认证
 - 云服务器 CVM 开发者
 - 云开发 CloudBase
 - 云数据库 MSQL
