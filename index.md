@@ -8,7 +8,6 @@ homepage:
   url: https://blog.zitiu.top/
   text: kalyan.life
 phone:
-  url: 
   text: 19866803602
 ---
 
