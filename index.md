@@ -10,7 +10,7 @@ homepage:
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <span style="font-size: 24px;">     </span>
+  <span style="font-size: 50px;"> 黄梓涛</span>
   <img src="https://gcore.jsdelivr.net/gh/Kalyan-zitiu/TyporaIMG/img/tou.jpg" style="width: 200px; height: auto;"/>
 </div>
 
