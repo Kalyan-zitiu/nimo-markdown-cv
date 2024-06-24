@@ -5,11 +5,16 @@ email:
   url: mailto:kalyan.zitiu@gmail.com
   text: kalyan.zitiu@gmail.com
 homepage:
-  url: https://www.kalyan.life
+  url: https://blog.zitiu.top/
   text: kalyan.life
 ---
 
-# 黄梓涛
+<table>
+  <tr>
+    <td>黄梓涛</td>
+    <td><img src="https://gcore.jsdelivr.net/gh/Kalyan-zitiu/TyporaIMG/img/tou.jpg" alt="" width="200"/></td>
+  </table>
+</tr>
 
 <!--
 include contact information from the front matter
@@ -33,66 +38,46 @@ Supported arguments:
 + 深度涉及云服务管理，自动化运维，系统管理，网络管理，服务器管理等。维护多种教学系统的运行。
 + 实现应用程序容器化部署，并使用Kubernetes完成容器部署的编排工作。
 
-
-
 [**华南理工大学广州学院 - 机器人野狼队 - 软件组组员**](https://gcubot.cn) `2022/10-2023/10`
 
-+ 掌握了对云计算架构的理解，并通过编写自动化运维脚本，有效提升了服务器系统的稳定性和运行效率。
-+ 掌握自动化运维工具，对服务器进行自动化部署
++  熟练掌握并应用Ansible、Puppet、Terraform等自动化运维工具，实现自动化部署、配置管理及环境监控。
++ 利用Docker和Kubernetes，有效管理和部署容器化应用，提高部署速度、扩展性及系统资源利用率。
++ 实施高级监控解决方案如Prometheus和Grafana，进行系统和网络性能监控，以及利用ELK Stack进行日志分析，增强对系统运行状态的可视化和问题预警能力。
 
 
 
 ## 项目经历
 ### 社会项目
 #### **智能教学环境集成系统**  `2022/09-2023/04`
-开始进行语言教学中心的机房运维工作后，学校日常考试教学需要进行系统的搭建和维护，为了尽快在多台计算机中搭建系统环境，和服务器的管理环境，我采取了以下技术
-虚拟化技术：我利用VMware vSphere和VirtualBox容器技术来创建和管理虚拟化的教学环境，使得资源可以按需分配，并且可以快速复制和恢复系统状态。
-配置管理：我部署了Ansible和Puppet来自动化配置管理，确保所有机器的配置一致性和可复制性，同时大幅降低了手动配置的错误率和维护时间。
-持续集成/持续部署 (CI/CD)：通过Jenkins和GitLab CI/CD管道，我实现了自动化的代码部署和测试流程，确保了教学软件的快速迭代和稳定性。
-网络管理：我使用了高级网络工具如Cisco的网络管理软件和Wireshark来监控网络流量，及时发现并解决网络瓶颈和安全隐患。
-监控和告警：我部署了Prometheus和Grafana来监控系统和网络性能指标，结合Alertmanager进行实时告警，确保能够快速响应潜在的系统问题。
-安全加固：使用防火墙技术（如iptables和pfSense），以及入侵检测系统（如Snort或Suricata）
+  我在语言教学中心的机房担任运维工作，成功实施了一套综合性的智能教学环境集成系统。利用VMware vSphere和VirtualBox进行高效的虚拟化管理，同时部署了Ansible和Puppet以自动化系统的配置，确保了高度的一致性和可靠性。通过Jenkins和GitLab CI/CD，我有效实现了代码的自动部署和连续集成，提升了教学软件的迭代速度和稳定性。网络方面，我采用Cisco软件和Wireshark进行精准的流量监控和管理，确保网络安全和性能。此外，通过部署Prometheus和Grafana以及集成Alertmanager，我建立了全面的监控和实时告警系统。安全加固方面，通过配置iptables和pfSense以及运用Snort或Suricata的入侵检测系统，我强化了整体网络的防护能力。这一系列技术的应用大大提高了系统的稳定性和教学的效率，展现了我在信息技术管理和优化方面的专业能力。
 
 ### 个人项目
 #### **仿无影无服务器云架构** 
-在掌握了语言教学中心机房运维工作的基础上，我开始对云计算架构产生浓厚的兴趣，特别是在无服务器计算和容器化方面。为了深入学习并实践这些概念，我启动了一个模拟阿里云无影架构的个人项目，采用了AWS服务进行实现。主要技术和策略包括：
-无服务器计算和API管理：
-利用AWS Lambda实现事件驱动的计算任务，无需预置或管理服务器。
-通过Amazon API Gateway构建和部署安全、可扩展的API接口。
-容器化服务和无服务器部署：
-使用Amazon ECS和AWS Fargate来运行容器化应用，实现了服务器和集群管理的自动化。
-自动化数据库服务：
-部署Amazon Aurora Serverless数据库，根据实际负载自动调整计算能力，优化成本。
-使用Amazon DynamoDB作为高可用性和无服务器的键值及文档数据库。
-文件存储和全球内容分发：
-采用Amazon S3进行对象存储，实现了数据的高可靠性和可扩展性。
-结合Amazon CloudFront提供快速的内容分发网络服务，优化全球用户的访问速度。
-基础设施即代码和CI/CD：
-利用AWS CloudFormation和AWS CDK自动化云资源的创建和管理。
-集成AWS CodePipeline和AWS CodeBuild，实现代码的持续集成和持续部署。
-性能监控和日志分析：
-部署Amazon CloudWatch和AWS X-Ray进行应用和基础设施的监控，以及服务调用追踪。
-安全性和合规性：
-使用AWS IAM和Amazon Cognito进行访问控制和用户身份验证。
-配置AWS WAF和AWS Shield强化Web应用的安全性。
+  我对云计算及其架构产生了强烈的兴趣，尤其是在无服务器计算和容器化方面。为了深入探索这些领域，我启动并实施了一个模拟阿里云无影架构的个人项目，采用AWS服务完成。在这个项目中，我熟练地运用AWS Lambda来执行事件驱动的计算任务，无需管理服务器。通过Amazon API Gateway，我构建和部署了安全且可伸缩的API接口。同时，我利用Amazon ECS和AWS Fargate部署容器化应用，实现服务和集群的自动化管理。项目还包括部署Amazon Aurora Serverless和Amazon DynamoDB以提供自动伸缩的数据库服务，以及使用Amazon S3和Amazon CloudFront进行高效的文件存储和内容分发。此外，我借助AWS CloudFormation和AWS CDK自动化云资源管理，整合AWS CodePipeline与AWS CodeBuild实现代码的持续集成和部署。性能监控方面，我部署了Amazon CloudWatch和AWS X-Ray以优化系统监控和服务追踪。为增强安全性，我配置了AWS IAM、Amazon Cognito、AWS WAF和AWS Shield，确保应用的安全性和合规性。这个项目不仅加深了我的技术理解，也显著提升了我的云计算实践能力。
+
+#### **高可用弹性B/S架构**
+
+  搭建了一个详细的虚拟私有云（VPC）架构，包含多个AWS组件和服务。该架构包括一个名为"MyVPC"的VPC，内部包含多个子网（如PublicSubnetA、PublicSubnetB、PrivateSubnetA、PrivateSubnetB）和路由表（如PublicRouteTable、PrivateRouteTable）。此外，还配置了网络ACL（如PublicNetworkACL、PrivateNetworkACL）来控制子网的入站和出站流量。网络设备方面，包含一个InternetGateway用于公共子网的互联网访问，以及一个NATGateway和其对应的弹性IP用于私有子网的互联网访问。安全组（如PublicInstanceSecurityGroup、PrivateInstanceSecurityGroup）用于实例的流量控制。实例部分，包括PublicInstanceA、PublicInstanceB、PrivateInstanceA、PrivateInstanceB等。该架构使用堡垒机来登录实例，VPC通过CloudFormation模板构建，并基于CloudWatch指标实现自动扩展（AutoScaling）。会话状态保存在DynamoDB中，数据库缓存使用Amazon ElastiCache for Redis。此外，还使用消息队列SQS来处理消息。这些组件通过复杂的连接关系，构成了一个集成的、高度可扩展和可靠的网络架构，用于管理和控制流量的路由、访问和安全性，适用于在云环境中部署和管理各种应用和服务。
 
 ## 相关技能
-1.熟悉主流云服务提供商（如AWS）的服务和管理工具，以及常用架构的搭建能力。
+1.熟悉主流云服务提供商AWS的服务和管理工具，以及常用架构的搭建能力。
 
-2.熟练使用容器化技术和容器编排工具，如Docker和Kubernetes。
+2.熟练使用容器化技术和容器编排工具，Docker和Kubernetes。
 
 3.能够编写自动化脚本，熟悉脚本语言，如Python、Bash
 
-4.了解持续集成和持续部署（CI/CD）流程，以及相关工具，如Jenkins、GitLab CI。
+4.了解持续集成和持续部署（CI/CD）流程，以及相关工具Jenkins、GitLab CI。
 
 5.具备网络基础知识，包括TCP/IP、DNS、HTTP/HTTPS以及负载均衡器。
 
-6.掌握以下自动化运维工具的使用，Ansible，Chef，Puppet
+6.掌握以下自动化运维工具的使用Ansible
+
+7.熟悉Linux系统管理，包括系统安装、配置、监控和性能优化。
 
 ## 个人总结
-+ 我熟练使用java，python，Kotlin等编程语言，并擅长开发用其开发项目以解决生活实际问题
-+ 我对Web前端和框架较为熟悉，而且有一定兴趣，能够编写较好交互的良好网站，并且有自己维护的技术博客kalyan.life
-+ 熟悉DevOps职位具体工作的流程和工具，掌握主流云服务的功能以及基本搭建能力
+  对DevOps职位的具体工作流程和相关工具具有扎实的理解，并通过项目和课程实践积累了相应的使用经验。我熟悉主流云服务平台如AWS的基本功能和架构搭建技术，了解微服务架构的基础，并掌握了Docker等容器化技术以及Kubernetes等容器编排工具的使用。此外，我对Linux操作系统和网络基本知识有深入了解，并通过学习和实验室项目，熟悉了Ansible等自动化运维工具的基础运用。正处于学习和成长阶段的我，渴望通过实习机会，将这些理论知识和基本技能运用于实际工作中，以进一步提升自己的专业能力和工作经验。
+
+
 
 ## 证书奖项
 - AWS Certified Solutions Architect -Associate（SAA）认证
