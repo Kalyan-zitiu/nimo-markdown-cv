@@ -67,7 +67,7 @@ Supported arguments:
 ## 相关技能
 1.熟练使用容器化技术和容器编排工具，Docker，Containerd和Kubernetes。
 
-2.熟悉多种集群技术，包括不限于envoy，istio，calico，cilium，hwameistor，KafKa,RocketMQ,Redis,Elasticsearch，kubevirt，kubean，kind等
+2.熟悉多种集群技术，包括不限于envoy,istio,calico,cilium,hwameistor,KafKa,RocketMQ,Redis,Elasticsearch,kubevirt,kubean,kind等
 
 3.能够编写自动化脚本，熟悉脚本语言，如Python、Bash
 
