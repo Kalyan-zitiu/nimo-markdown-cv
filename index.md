@@ -77,7 +77,7 @@ Supported arguments:
 
 6.熟悉不同发行版的Linux系统以及linux内核，掌握Linux以及众多工具的使用以及操作
 
-7.熟悉CICD，jinkens流水线，GitOps等Devops运维技术。
+7.熟悉CICD，jenkins流水线，GitOps等Devops运维技术。
 
 
 ## 个人总结
