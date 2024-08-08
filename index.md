@@ -52,7 +52,7 @@ Supported arguments:
 ## 项目经历
 
 ### **创信合金DaoCloud容器云平台** 交付人员 `2024/07-至今`
- 与创信合金合作共同完成Daocloud容器云平台，搭建集成了服务网格和微服务技术，支持多云和边缘云管理，提供多云编排、容器管理、微服务治理、DevOps 支持等功能，能够实现应用交付过程的标准化和自动化理的高性能、可扩展的云原生操作系统，对生产集群进行更好的监控和生产操作。
+ 与创信合金合作共同完成Daocloud容器云平台，搭建集成了服务网格和微服务技术，支持多云和边缘云管理，提供多云编排、容器管理、微服务治理、DevOps 支持等功能，能够实现应用交付过程的标准化和自动化理的高性能、可扩展的云原生操作系统，对生产集群进行更好的监控和生产操作。对集群内组件进行镜像升级，建立流水线操作进行仓库拉取，镜像维护后，对其进行流水线+流水线执行id+时间戳的版本跟踪的构建并且推送至组件拉取的镜像仓库。
 
 ### **智能教学环境集成系统**    项目实施人   `2022/09-2023/04`
   我在语言教学中心的机房担任运维工作，成功实施了一套综合性的智能教学环境集成系统。利用高效的虚拟化管理，同时部署了Ansible以自动化系统的配置，确保了高度的一致性和可靠性。通过Jenkins，我有效实现了代码的自动部署和连续集成，提升了教学软件的迭代速度和稳定性。此外，通过部署Prometheus，我建立了全面的监控和实时告警系统。
@@ -65,21 +65,25 @@ Supported arguments:
   
 
 ## 相关技能
-1.熟练使用容器化技术和容器编排工具，Docker，Containerd和Kubernetes。
+1. 计算机网络：TCP/IP,HTTP,DNS,Websocket,RPC
 
-2.熟悉多种集群技术，包括不限于envoy,istio,calico,cilium,hwameistor,KafKa,RocketMQ,Redis,Elasticsearch,kubevirt,kubean,kind等
+2. OS:CentOS,Ubuntu,RHEL,Windows
 
-3.能够编写自动化脚本，熟悉脚本语言，如Python、Bash
+3. 自动化运维工具：Ansible
 
-4.具备网络基础知识，包括不限于TCP/IP、DNS、HTTP/HTTPS，RPC，Websocket.
+4. 可观测技术：Prometheus，Grafana，Kibana
 
-5.熟悉使用自动化运维工具ansible进行多hosts的维护以及生产操作。
+5. 微服务：Envoy，Istio
 
-6.熟悉不同发行版的Linux系统以及linux内核，掌握Linux以及众多工具的使用以及操作
+6. DevOps：jenkins
 
-7.熟悉CICD，jenkins流水线，GitOps等Devops运维技术。
+7. 中间件： KafKa，RocketMQ，Elasticsearch,Redis,MySQL
+
+8. 容器化：Containerd，Docker
+
+9. 容器编排：Kubernetes
 
 
 ## 个人总结
-  对kubernetes生态较为熟悉，能够建立并且维护自建集群，能够使用多种集群技术对集群进行多维度操作，包括不限于组件升级。熟悉linux操作系统，对不同发行版有不同的研究和理解。对不同的技术能够快速进行学习以及实操上手。
+  对kubernetes生态较为熟悉，熟练使用容器化技术和容器编排工具，熟悉多种集群技术，能够编写自动化脚本，具备网络基础知识，熟悉使用自动化运维工具，悉不同发行版的Linux系统
 
