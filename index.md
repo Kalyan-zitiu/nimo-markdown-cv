@@ -31,12 +31,12 @@ Supported arguments:
 ### 华南理工大学广州学院 本科 计算机学院 软件工程 `2021-至今`
 
 ## 工作经验
-[**深圳前海道客网络科技有限公司 - 南区交付 - 运维交付**]
+[**深圳前海道客网络科技有限公司 - 南区交付 - 运维交付**](https://www.daocloud.io/) `2024/7-至今`
 + 负责公司产品的交付和公司产品的维护保证
 + 负责自动化运维组件的部署
 + 处理containerd，kubernetes等容器和容器编排问题 
 
-[**华南理工大学广州学院 - 机房教学中心 - 运维组组长**](https://wy.gcu.edu.cn/2023/0523/c768a150266/page.htm) `2021-2025`
+[**华南理工大学广州学院 - 机房教学中心 - 运维组组长**](https://wy.gcu.edu.cn/2023/0523/c768a150266/page.htm) `2021/9-2025/6`
 
 + 管理语音教学中心的6台linux服务器，保证日常99%时间的平稳运行
 + 深度涉及云服务管理，自动化运维，系统管理，网络管理，服务器管理等。维护多种教学系统的运行。
@@ -66,23 +66,14 @@ Supported arguments:
 
 ## 相关技能
 1. 计算机网络：TCP/IP,HTTP,DNS,Websocket,RPC
-
 2. OS:CentOS,Ubuntu,RHEL,Windows
-
 3. 自动化运维工具：Ansible
-
 4. 可观测技术：Prometheus，Grafana，Kibana
-
 5. 微服务：Envoy，Istio
-
 6. DevOps：jenkins
-
 7. 中间件： KafKa，RocketMQ，Elasticsearch,Redis,MySQL
-
 8. 容器化：Containerd，Docker
-
 9. 容器编排：Kubernetes
-
 
 ## 个人总结
   对kubernetes生态较为熟悉，熟练使用容器化技术和容器编排工具，熟悉多种集群技术，能够编写自动化脚本，具备网络基础知识，熟悉使用自动化运维工具，悉不同发行版的Linux系统
