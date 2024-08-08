@@ -65,15 +65,15 @@ Supported arguments:
   
 
 ## 相关技能
-1. 计算机网络：TCP/IP,HTTP,DNS,Websocket,RPC
-2. OS:CentOS,Ubuntu,RHEL,Windows
-3. 自动化运维工具：Ansible
-4. 可观测技术：Prometheus，Grafana，Kibana
-5. 微服务：Envoy，Istio
-6. DevOps：jenkins
-7. 中间件： KafKa，RocketMQ，Elasticsearch,Redis,MySQL
-8. 容器化：Containerd，Docker
-9. 容器编排：Kubernetes
+1. **计算机网络**：TCP/IP, HTTP, DNS, WebSocket, RPC
+2. **操作系统**：CentOS, Ubuntu, RHEL, Windows
+3. **自动化运维工具**：Ansible
+4. **可观测技术**：Prometheus, Grafana, Kibana
+5. **微服务**：Envoy, Istio
+6. **DevOps**：Jenkins
+7. **中间件**：Kafka, RocketMQ, Elasticsearch, Redis, MySQL
+8. **容器化**：Containerd, Docker
+9. **容器编排**：Kubernetes
 
 ## 个人总结
   对kubernetes生态较为熟悉，熟练使用容器化技术和容器编排工具，熟悉多种集群技术，能够编写自动化脚本，具备网络基础知识，熟悉使用自动化运维工具，悉不同发行版的Linux系统
