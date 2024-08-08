@@ -63,17 +63,22 @@ Supported arguments:
 ### **高可用弹性B/S架构**   搭建人   `2024/04-2024/06`
   在AWS环境中构建的"MyVPC"虚拟私有云架构包括配置了多个公共和私有子网，分别通过与互联网网关和NAT网关相关联的路由表管理互联网访问，确保流量安全和隔离。网络安全依靠具体设定的网络ACL和针对公共及私有实例的安全组来精确控制入站和出站流量。系统采用堡垒机进行安全登录与实例管理，而整个VPC的部署和管理通过CloudFormation模板实现自动化，同时支持自动扩展功能以便根据需要调整资源。会话状态的管理借助DynamoDB实现，而数据访问速度通过使用Amazon ElastiCache for Redis进行加速。此外，引入消息队列SQS来优化应用间的异步通信，整体上，这套架构有效地提供了一个高度集成、可扩展且安全的网络环境，适用于云上的多种应用和服务部署。
   
-### **安卓开发新闻APP**       开发人员 `2024/03-2024/05`
-  安卓开发新闻 app 是一个为 Android 平台设计的移动应用程序，旨在为用户提供实时新闻内容。应用程序通过集成第三方新闻 API 来获取各种新闻源的最新信息，并提供一个直观易用的用户界面来展示新闻文章。用户可以浏览不同类别的新闻，收藏喜欢的文章，并在离线时阅读存储在本地数据库中的内容。用 Android Studio 通过 Java和 XML 布局进行开发。通过 Retrofit或 OkHttp用于处理 HTTP 请求返回，用 Gson 解析 API 返回的 JSON 数据。图片用 Glide 异步加载网络图片Room Persistence Library作为 SQLite 的抽象层，以便更加便捷地进行数据持久化操作，使用动态代理模式，通过 Retrofit 构建 REST API 的客户端。JUnit和 Espresso 用于单元测试和 UI 测试.
 
 ## 相关技能
 1.熟练使用容器化技术和容器编排工具，Docker，Containerd和Kubernetes。
+
 2.熟悉多种集群技术，包括不限于envoy，istio，calico，cilium，hwameistor，KafKa,RocketMQ,Redis,Elasticsearch，kubevirt，kubean，kind等
+
 3.能够编写自动化脚本，熟悉脚本语言，如Python、Bash
+
 4.具备网络基础知识，包括不限于TCP/IP、DNS、HTTP/HTTPS，RPC，Websocket.
+
 5.熟悉使用自动化运维工具ansible进行多hosts的维护以及生产操作。
+
 6.熟悉不同发行版的Linux系统以及linux内核，掌握Linux以及众多工具的使用以及操作
+
 7.熟悉CICD，jinkens流水线，GitOps等Devops运维技术。
+
 
 ## 个人总结
   对kubernetes生态较为熟悉，能够建立并且维护自建集群，能够使用多种集群技术对集群进行多维度操作，包括不限于组件升级。熟悉linux操作系统，对不同发行版有不同的研究和理解。对不同的技术能够快速进行学习以及实操上手。
