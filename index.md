@@ -72,18 +72,18 @@ Supported arguments:
   
 ## 相关技能
 1. **计算机网络**：TCP/IP, HTTP, DNS, WebSocket, RPC
-2. **操作系统**：CentOS, Ubuntu, RHEL, Windows，almaLinux
+2. **操作系统**：CentOS, Ubuntu, RHEL, Windows,almaLinux
 3. **自动化运维工具**：Ansible
 4. **可观测技术**：Prometheus, Grafana, Kibana，Loki
-5. **微服务**：Envoy, Istio
+5. **微服务**：Envoy,Istio
 6. **DevOps**：Jenkins
-7. **中间件**：Kafka, RocketMQ, Elasticsearch, Redis, MySQL，PostgreSQL，Redis
+7. **中间件**：Kafka,RocketMQ,Elasticsearch,Redis,MySQL,PostgreSQL,Redis
 8. **容器化**：Containerd, Docker，podman
 9. **容器编排**：Kubernetes
-10. **容器管理**：Harbor
-11. **集群技术**：Kubevirt，Kube-vip，Kubean，Kind，MetalLB，Kubespray，helm
-12. **网络技术**：Calico，Cilium
-13. **编程技术**：Golang，Java，python
+10. **容器管理**：Harbor,jfrog
+11. **集群技术**：Kubevirt,Kubean,Kind,MetalLB,Kubespray,helm
+12. **网络技术**：Calico,Cilium
+13. **编程技术**：Golang,Java,python
 
 ## 个人总结
   对kubernetes生态较为熟悉，容器化技术和容器编排工具经验丰富，熟悉多种集群技术，能够编写自动化脚本，具备网络基础知识，熟悉使用自动化运维工具，掌握不同发行版的Linux系统，掌握基本开发能力。
