@@ -79,13 +79,13 @@ Supported arguments:
 1. **计算机网络**：TCP/IP, HTTP, DNS, WebSocket, RPC
 2. **操作系统**：CentOS, Ubuntu, RHEL, Windows,almaLinux
 3. **自动化运维工具**：Ansible
-4. **可观测技术**：Prometheus, Grafana, Kibana，Loki
+4. **可观测技术**：Prometheus, Grafana, Kibana，OpenTelemetry，Victoriametrics
 5. **微服务**：Envoy,Istio
 6. **DevOps**：Jenkins
-7. **中间件**：Kafka,RocketMQ,Elasticsearch,Redis,MySQL,PostgreSQL,Redis
+7. **中间件**：Kafka,RocketMQ,Elasticsearch,Redis,MySQL,PostgreSQL,RabbitMQ，
 8. **容器化**：Containerd, Docker，podman
 9. **容器编排**：Kubernetes
-10. **容器管理**：Harbor,jfrog
+10. **镜像管理**：Harbor,jfrog
 11. **集群技术**：Kubevirt,Kubean,Kind,MetalLB,Kubespray,helm
 12. **网络技术**：Calico,Cilium
 13. **编程技术**：Golang,Java,python
