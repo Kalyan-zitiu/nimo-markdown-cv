@@ -52,17 +52,20 @@ Supported arguments:
 
 ## 项目经历 
 
+### ****
+
 ### **Rocketmq中间件高可用方案** 中间件架构工程师 `2024/10-2024/11`
   基于 Kubernetes Operator 部署 RocketMQ 集群，通过 StatefulSet 实现 Namesrv 和 Broker 多副本高可用，结合 LocalPV 持久化存储保障数据可靠性，针对 Operator 缺陷（Namesrv 副本/IP 变更触发滚动重启），重构 Broker 配置（allowRestart: false）规避生产风险。对比 Calico IPAM 固定分配、MetalLB LoadBalancer IP 预留、Macvlan CNI 直通等方案，最终采用 Macvlan 实现 Pod 级静态 IP 绑定，确保 Broker/Namesrv 节点 IP 在集群扩容、故障迁移等场景下永久不变。
+  
 ### **集群网络方案** 架构交付 `2024/9-2024/10`
   通过部署 Cilium 网络插件并结合 BGP Underlay 模式，可以实现跨集群的 Pod 网络互通和动态服务发现。Cilium利用eBPF技术提供高效的流量转发和细粒度的安全策略，而BGP协议则确保了外部网络与集群间的动态路由更新，使得Pod IP及服务类型能被实时通告。这样，集群间的Pod可以无缝互访，同时动态注册的服务能够被外部网络识别并访问。此外，Cilium的网络性能优化、流量聚合以及对L7策略的支持，使得云原生应用的网络更加安全、灵活和可管理，充分满足了复杂场景下的性能和可扩展性需求。
+  
+### **容器云平台devops/CICD** 云原生DevOps工程师 `2024/08-2024/09`
+ 基于Jenkins设计并实现CI/CD流水线，集成GitOps（FluxCD）与Argo工具链，使用Jenkins Pipeline构建声明式流水线，集成Trivy镜像扫描、优化镜像体积、SonarQube代码质量分析，确保交付安全与质量。通过Argo Rollouts实现金丝雀发布与蓝绿部署，结合Prometheus指标自动判断发布状态，支持失败自动回滚，采用GitOps实践，使用FluxCD同步Git仓库配置至Kubernete集群，实现基础设施即代码（IaC）。
 
 ### **kubevirt存储验证** 技术测试工程师 `2024/08-2024/09`
  集群KubeVirt的VM测试包括，镜像创建，yaml创建，克隆，实时迁移，创建快照，快照备份，CPU内存更新，各种网络模式，hwameistor和ceph存储io性能测试，跨集群迁移，vmdk导入。特殊离线环境下，修改ubuntu版本的fio专用编译包，然后进行离线编译fio工具，创建进行存储测试对比，对比随机写，随机读，随机混合读写，顺序读，顺序写的fio测试参数。便携数据分析python脚本进行多次测试的可视化分析，输出特定环境的测试文档。
-
-### **容器云平台devops CICD** 云原生DevOps工程师 `2024/08-2024/09`
- 基于Jenkins设计并实现CI/CD流水线，集成GitOps（FluxCD）与Argo工具链，使用Jenkins Pipeline构建声明式流水线，集成Trivy镜像扫描、优化镜像体积、SonarQube代码质量分析，确保交付安全与质量。通过Argo Rollouts实现金丝雀发布与蓝绿部署，结合Prometheus指标自动判断发布状态，支持失败自动回滚，采用GitOps实践，使用FluxCD同步Git仓库配置至Kubernete集群，实现基础设施即代码（IaC）。
-
+ 
 ### **容器管理定制化交付** 容器交付工程师 `2024/07-2024/08`
  主导生产集群升级方案，在离线环境下自建三副本Harbor镜像仓库，实现镜像版本统一管理和灾备。解构官方Chart包，重构NodePort服务暴露方式，优化Ingress路由配置，适配探针策略，针对NFS存储环境，定制容器目录权限方案，解决MySQL容器因权限问题导致的CrashLoopBackOff故障，通过存储动态扩容+重挂载方案，确保服务容器可用性达99%。
 
