@@ -35,7 +35,7 @@ Supported arguments:
 + 负责公司产品的交付和公司产品的维护保证
 + 负责自动化运维组件的部署
 + 处理containerd，kubernetes等容器和容器编排问题
-+ 处理集群中客户服务部署的环境问题以及处理兼容性问题。
++ 处理集群中服务部署的环境问题以及处理兼容性问题。
 
 [**华南理工大学广州学院 - 机房教学中心 - 运维组组长**](https://wy.gcu.edu.cn/2023/0523/c768a150266/page.htm) `2021/9-2025/6`
 
@@ -60,8 +60,8 @@ Supported arguments:
 ### **kubevirt存储验证** 技术测试工程师 `2024/08-2024/09`
  集群KubeVirt的VM测试包括，镜像创建，yaml创建，克隆，实时迁移，创建快照，快照备份，CPU内存更新，各种网络模式，hwameistor和ceph存储io性能测试，跨集群迁移，vmdk导入。特殊离线环境下，修改ubuntu版本的fio专用编译包，然后进行离线编译fio工具，创建进行存储测试对比，对比随机写，随机读，随机混合读写，顺序读，顺序写的fio测试参数。便携数据分析python脚本进行多次测试的可视化分析，输出特定环境的测试文档。
 
-### **容器云平台交付以及CICD搭建** 云原生DevOps工程师 `2024/08-2024/09`
- 基于Jenkins设计并实现CI/CD流水线，集成GitOps（FluxCD）与Argo工具链，使用Jenkins Pipeline构建声明式流水线，集成Trivy镜像扫描、SonarQube代码质量分析，确保交付安全与质量。通过Argo Rollouts实现金丝雀发布与蓝绿部署，结合Prometheus指标自动判断发布状态，支持失败自动回滚，采用GitOps实践，使用FluxCD同步Git仓库配置至Kubernete集群，实现基础设施即代码（IaC）。
+### **容器云平台devops CICD** 云原生DevOps工程师 `2024/08-2024/09`
+ 基于Jenkins设计并实现CI/CD流水线，集成GitOps（FluxCD）与Argo工具链，使用Jenkins Pipeline构建声明式流水线，集成Trivy镜像扫描、优化镜像体积、SonarQube代码质量分析，确保交付安全与质量。通过Argo Rollouts实现金丝雀发布与蓝绿部署，结合Prometheus指标自动判断发布状态，支持失败自动回滚，采用GitOps实践，使用FluxCD同步Git仓库配置至Kubernete集群，实现基础设施即代码（IaC）。
 
 ### **容器管理定制化交付** 容器交付工程师 `2024/07-2024/08`
  主导生产集群升级方案，在离线环境下自建三副本Harbor镜像仓库，实现镜像版本统一管理和灾备。解构官方Chart包，重构NodePort服务暴露方式，优化Ingress路由配置，适配探针策略，针对NFS存储环境，定制容器目录权限方案，解决MySQL容器因权限问题导致的CrashLoopBackOff故障，通过存储动态扩容+重挂载方案，确保服务容器可用性达99%。
