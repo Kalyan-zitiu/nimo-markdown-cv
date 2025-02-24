@@ -50,9 +50,10 @@ Supported arguments:
 + 实施高级监控解决方案如Prometheus，进行系统和网络性能监控
 
 
-## 项目经历 
+## 项目经历   
 
-### ****
+### **KafKa跨机房集群的数据双向同步** 中间件架构工程师 `2024/12-2025/1`
+ 负责 Kafka 集群双向同步方案的设计与落地，针对跨集群数据同步场景，通过 MirrorMaker 2 配置优化、消息打标防环、时间戳冲突处理、分区并行优化等手段，解决了数据一致性、回环问题、性能延迟等核心痛点；同时结合 ACL 同步工具、Checkpoint 机制和监控告警体系，保障了数据零丢失、顺序一致性以及权限同步，成功支持了双活架构、跨地域数据复制及云迁移等高可用场景，提升了系统的稳定性和业务连续性。
 
 ### **Rocketmq中间件高可用方案** 中间件架构工程师 `2024/10-2024/11`
   基于 Kubernetes Operator 部署 RocketMQ 集群，通过 StatefulSet 实现 Namesrv 和 Broker 多副本高可用，结合 LocalPV 持久化存储保障数据可靠性，针对 Operator 缺陷（Namesrv 副本/IP 变更触发滚动重启），重构 Broker 配置（allowRestart: false）规避生产风险。对比 Calico IPAM 固定分配、MetalLB LoadBalancer IP 预留、Macvlan CNI 直通等方案，最终采用 Macvlan 实现 Pod 级静态 IP 绑定，确保 Broker/Namesrv 节点 IP 在集群扩容、故障迁移等场景下永久不变。
