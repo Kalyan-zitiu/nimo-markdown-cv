@@ -10,7 +10,7 @@ homepage:
 phone:
   text: 19866803602
 city:
- text:Shenzhen, China 
+ text: Shenzhen, China 
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
