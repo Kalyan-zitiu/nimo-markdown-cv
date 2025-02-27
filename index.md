@@ -5,7 +5,7 @@ email:
   url: mailto:kalyan.zitiu@gmail.com
   text: kalyan.zitiu@gmail.com
 homepage:
-  url: https://blog.zitiu.top/
+  url: https://blog.kalyan.life/
   text: kalyan.life
 phone:
   text: 19866803602
