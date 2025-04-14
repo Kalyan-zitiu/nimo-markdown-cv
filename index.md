@@ -55,7 +55,7 @@ Supported arguments:
 
 ## 项目经历   
 
-###。**mcp-server-kubernetes + cherry studio 实现模型对集群访问操作** 模型落地实施 `2025/3-2025/4`
+### **mcp-server-kubernetes + cherry studio 实现模型对集群访问操作** 模型落地实施 `2025/3-2025/4`
   基于 MCP 协议的模型与 Kubernetes 集群交互操作的实现。​通过部署 MCP-Server-Kubernetes，实现了模型对集群资源的访问与管理。​同时，结合 Cherry Studio 客户端，提供了直观的操作界面，简化了模型与集群的交互流程。​该项目显著提升了模型的自动化能力和系统的整体性能
 
 ### **应用链路监控注入最佳实践** 应用链路收集 `2025/3-2025/4`
