@@ -51,15 +51,15 @@ Supported arguments:
 + 参与 AI Infra 场景下异构 GPU/NPU 资源纳管与平台适配，支撑算力集群落地使用。
 
 
-## 项目经历
+## **项目经历**
 
 ### **云原生 AI / 大模型基础设施实践**
 
 **技术关键词：Kubernetes / Multi-Cluster / GPU Operator / HAMI / Service Mesh / API Gateway / Cert-Manager / LLM**
 
-#### 概述
+#### **概述**
   基于容器云平台，实现多集群统一管理以及不同类型的算力管理
-#### 主要负责内容
+#### **主要负责内容**
 + 负责多集群统一纳管方案设计与落地，支撑不同算力类型集群的统一接入、管理与使用。
 + 面向 NVIDIA、MetaX 及 NPU 等异构算力环境，完成集群部署、资源接入及统一服务化暴露。
 + 基于 GPU Operator 与 HAMI 实现 vGPU 能力管理与调度，提升异构算力资源利用率与分配灵活性。
@@ -78,9 +78,9 @@ Supported arguments:
 
 **技术关键词：Kubernetes / OpenTelemetry / SkyWalking / Fluent Bit / Vector / Kafka / Elasticsearch / Kibana / Envoy**
 
-#### 概述
+#### **概述**
 面向云原生多集群场景，建设统一可观测平台，打通日志、指标与链路追踪能力，提升系统观测、故障定位与平台治理能力。
-#### 主要负责内容
+#### **主要负责内容**
 + 设计并落地覆盖网关、应用、中间件及 Kubernetes 集群的统一可观测体系，实现日志、指标、链路追踪的集中化管理。
 + 基于 Fluent Bit、Vector、Kafka、Elasticsearch、Kibana 构建日志采集、传输、缓冲、存储与检索链路，提升日志治理能力。
 + 以 OpenTelemetry 作为统一观测协议，兼容 SkyWalking Java Agent 历史链路数据，降低业务改造成本并保障观测连续性。
@@ -93,13 +93,13 @@ Supported arguments:
 - 在降低业务侧改造成本的前提下完成观测体系升级，保障平台平稳演进。
 - 提升日志检索、链路分析与故障定位效率，增强系统可诊断性与运维支撑能力。
 
-### 云原生网关与服务治理（Gateway / Envoy）
+### **云原生网关与服务治理（Gateway / Envoy）**
 
 **技术关键词：Contour / Envoy / HTTPProxy / Ingress / OpenTelemetry / Kubernetes**
 
-#### 概述
+#### **概述**
 基于 Contour + Envoy 构建云原生网关体系，支撑集群内统一流量接入、路由转发及网关侧可观测能力建设。
-#### 主要负责内容
+#### **主要负责内容**
 + 基于 Contour 构建网关控制面，监听 Kubernetes 集群内 HTTPProxy、Ingress 等资源，并动态下发至 Envoy 数据面。
 + 基于 Envoy 实现高性能网关流量转发能力，完成与集群内 Service 的联动，支持多域名及复杂路由策略配置。
 + 参与云原生网关接入方案设计与落地，提升集群入口流量管理的标准化与可扩展性。
@@ -115,9 +115,9 @@ Supported arguments:
 
 **技术关键词：Cilium / eBPF / BGP / Underlay Network / Kubernetes**
 
-#### 概述
+#### **概述**
 基于 Cilium BGP Underlay 模式设计并落地多集群网络方案，实现跨集群 Pod/Service 网络互通及底层网络可达能力。
-#### 主要负责内容
+#### **主要负责内容**
 + 在 Kubernetes 集群中部署 Cilium 网络插件，基于 BGP Underlay 模式构建云原生网络架构。
 + 实现跨集群 Pod 网络直连互通，打通集群边界，提升多集群场景下的网络连通性。
 + 支持 Pod IP 与 Service IP 向底层网络动态通告，实现云原生网络与物理网络的互联互通。
@@ -132,9 +132,9 @@ Supported arguments:
 
 **技术关键词：Jenkins / Argo CD / GitOps / Argo Rollouts / Prometheus / Trivy / SonarQube / Kubernetes**
 
-#### 概述
+#### **概述**
 围绕容器云平台建设 CI/CD 与 GitOps 持续交付体系，提升多集群环境下的应用交付效率、发布安全性与变更可控性。
-#### 主要负责内容
+#### **主要负责内容**
 + 基于 Jenkins Pipeline 设计并实现声明式 CI/CD 流水线，支撑应用构建、测试与发布流程标准化。
 + 引入构建缓存机制，优化流水线执行效率，缩短应用交付周期。
 + 集成 Trivy 镜像扫描与 SonarQube 代码质量分析，推动安全与质量能力前置。
@@ -147,7 +147,7 @@ Supported arguments:
 - 提升应用交付效率与发布安全性，降低人工操作风险。
 - 建立标准化、可观测、可回滚的多集群持续交付体系。
 
-## 相关技能
+## **相关技能**
 + 云原生与容器编排： Kubernetes、Helm、Kubean、Kubespray、Kind、Koordinator、MetalLB
 + 容器与运行时： Docker、Containerd、Podman
 + AI Infra / 模型服务： vLLM、GPU Operator、HAMI、NVIDIA GPU、MetaX GPU、Ascend NPU、OpenAI-Compatible API
@@ -160,5 +160,5 @@ Supported arguments:
 + 网络： TCP/IP、HTTP、DNS、WebSocket、RPC、Calico、Cilium、BGP
 + 操作系统： CentOS、Ubuntu、RHEL、AlmaLinux、Windows
 
-## 个人总结
+## **个人总结**
   熟悉 Kubernetes 生态与云原生基础设施，具备容器平台部署、运维、故障排查及自动化运维能力。熟悉多集群管理、可观测性、服务治理、持续交付及常见中间件组件，并具备基于 vLLM、GPU Operator、HAMI 等技术的大模型服务与异构 GPU/NPU 资源管理实践经验，能够支撑云原生平台与 AI 场景下的建设、交付与运维保障工作。
