@@ -4,9 +4,6 @@ title: Kalyan's Resume
 email:
   url: mailto:kalyan.zitiu@gmail.com
   text: kalyan.zitiu@gmail.com
-homepage:
-  url: https://blog.kalyan.life/
-  text: kalyan.life
 phone:
   text: 19866803602
 city:
@@ -131,38 +128,37 @@ Supported arguments:
 - 提升多集群环境下的网络可达性、调试效率与运维便利性。
 - 为多活、多地域场景下的云原生架构建设提供网络基础能力。
 
-### **云原生 DevOps 与持续交付体系构建** 项目周期：2024/08 – 2024/09
+### **云原生 DevOps 与持续交付体系构建** 
 
-**技术关键词：Jenkins / Argo CD / GitOps / Argo Rollouts / Prometheus**
+**技术关键词：Jenkins / Argo CD / GitOps / Argo Rollouts / Prometheus / Trivy / SonarQube / Kubernetes**
 
-#### **容器云平台 CI/CD 与 GitOps 实践**
-- 基于 **Jenkins Pipeline** 设计并实现声明式 CI/CD 流水线
-- 引入构建缓存机制，显著提升流水线执行效率
-- 集成 **Trivy 镜像扫描** 与 **SonarQube 代码质量分析**，实现安全与质量左移
-- 基于 **Argo CD** 实现多集群应用的持续交付
-- 使用 **Argo Rollouts** 支持金丝雀发布与蓝绿部署
-- 结合 **Prometheus 指标** 自动判断发布状态，支持失败自动回滚
-- 落地 GitOps 实践，实现基础设施即代码（IaC）
+#### 概述
+围绕容器云平台建设 CI/CD 与 GitOps 持续交付体系，提升多集群环境下的应用交付效率、发布安全性与变更可控性。
+#### 主要负责内容
++ 基于 Jenkins Pipeline 设计并实现声明式 CI/CD 流水线，支撑应用构建、测试与发布流程标准化。
++ 引入构建缓存机制，优化流水线执行效率，缩短应用交付周期。
++ 集成 Trivy 镜像扫描与 SonarQube 代码质量分析，推动安全与质量能力前置。
++ 基于 Argo CD 实现多集群应用持续交付，提升发布过程的一致性与可追溯性。
++ 使用 Argo Rollouts 支持金丝雀发布与蓝绿部署，增强发布灵活性与风险控制能力。
++ 结合 Prometheus 指标实现发布状态自动判断与失败自动回滚，提升发布稳定性。
++ 落地 GitOps 实践，推动应用与基础设施配置的版本化管理与标准化交付。
   
 #### **项目价值：**
-- 提升应用交付效率与发布安全性
-- 建立标准化、可回滚的多集群交付体系
+- 提升应用交付效率与发布安全性，降低人工操作风险。
+- 建立标准化、可观测、可回滚的多集群持续交付体系。
 
 ## 相关技能
-1. **计算机网络**：TCP/IP, HTTP, DNS, WebSocket, RPC
-2. **操作系统**：CentOS, Ubuntu, RHEL, Windows,almaLinux
-3. **自动化运维工具**：Ansible
-4. **可观测技术**：Prometheus,Grafana,Kibana,OpenTelemetry,Victoriametrics,Fluentbit,Jaeger
-5. **微服务**：Envoy,Istio,Contour
-6. **DevOps**：Jenkins,Argo,Gitops,Argo Rollout,Gitlab
-7. **中间件**：Kafka,RocketMQ,Elasticsearch,Redis,MySQL,PostgreSQL,RabbitMQ
-8. **容器化**：Containerd,Docker,Podman
-9. **容器编排**：Kubernetes
-10. **镜像管理**：Harbor,jfrog
-11. **集群技术**：Kubean,Kind,MetalLB,Kubespray,Helm,Koordinator
-12. **网络技术**：Calico,Cilium
-13. **编程技术**：Golang,bash,python
++ 云原生与容器编排： Kubernetes、Helm、Kubean、Kubespray、Kind、Koordinator、MetalLB
++ 容器与运行时： Docker、Containerd、Podman
++ AI Infra / 模型服务： vLLM、GPU Operator、HAMI、NVIDIA GPU、MetaX GPU、Ascend NPU、OpenAI-Compatible API
++ 推理优化： KV Cache、Continuous Batching、Tensor Parallelism
++ 自动化与脚本： Ansible、Bash、Python
++ 可观测性： Prometheus、Grafana、Kibana、OpenTelemetry、VictoriaMetrics、Fluent Bit、Vector、Jaeger、SkyWalking
++ 服务治理： Envoy、Istio、Contour、Service Mesh、API Gateway、Cert-Manager
++ DevOps： Jenkins、Argo CD、GitOps、Argo Rollouts、GitLab
++ 中间件： Kafka、RocketMQ、Elasticsearch、Redis、MySQL、PostgreSQL、RabbitMQ
++ 网络： TCP/IP、HTTP、DNS、WebSocket、RPC、Calico、Cilium、BGP
++ 操作系统： CentOS、Ubuntu、RHEL、AlmaLinux、Windows
 
 ## 个人总结
-  对kubernetes生态较为熟悉，容器化技术和容器编排工具经验丰富，熟悉多种集群技术，能够编写自动化脚本，具备网络基础知识，熟悉使用自动化运维工具，掌握不同发行版的Linux系统，掌握基本开发能力。
-
+  熟悉 Kubernetes 生态与云原生基础设施，具备容器平台部署、运维、故障排查及自动化运维能力。熟悉多集群管理、可观测性、服务治理、持续交付及常见中间件组件，并具备基于 vLLM、GPU Operator、HAMI 等技术的大模型服务与异构 GPU/NPU 资源管理实践经验，能够支撑云原生平台与 AI 场景下的建设、交付与运维保障工作。
