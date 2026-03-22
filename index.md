@@ -50,10 +50,8 @@ Supported arguments:
 + 面向重点客户生产环境，负责复杂故障排查、架构优化及专项技术支持。
 + 参与 AI Infra 场景下异构 GPU/NPU 资源纳管与平台适配，支撑算力集群落地使用。
 
-
 ## **项目经历**
-   
-### **云原生 AI / 大模型基础设施实践**
+## **云原生 AI / 大模型基础设施实践**
 **技术关键词：Kubernetes / Multi-Cluster / GPU Operator / HAMI / Service Mesh / API Gateway / Cert-Manager / LLM**
 #### **概述**
   基于容器云平台，实现多集群统一管理以及不同类型的算力管理
@@ -69,8 +67,7 @@ Supported arguments:
 - 完成多集群与异构算力资源的统一纳管，为 AI 基础设施平台化建设提供落地实践。
 - 验证云原生平台承载大模型服务的可行性，沉淀模型部署、服务暴露与安全治理的实现方案。
 - 提升算力资源利用率与模型服务管理效率，为后续统一调度、标准化接入及平台扩展奠定基础。
-              
-### **云原生可观测体系建设（Tracing / Logging / Metrics）**
+## **云原生可观测体系建设（Tracing / Logging / Metrics）**
 **技术关键词：Kubernetes / OpenTelemetry / SkyWalking / Fluent Bit / Vector / Kafka / Elasticsearch / Kibana / Envoy**
 #### **概述**
 面向云原生多集群场景，建设统一可观测平台，打通日志、指标与链路追踪能力，提升系统观测、故障定位与平台治理能力。
@@ -85,8 +82,7 @@ Supported arguments:
 - 构建统一的云原生可观测底座，支撑多集群及复杂业务场景下的运行观测与治理。
 - 在降低业务侧改造成本的前提下完成观测体系升级，保障平台平稳演进。
 - 提升日志检索、链路分析与故障定位效率，增强系统可诊断性与运维支撑能力。
-  
-### **云原生网关与服务治理（Gateway / Envoy）**
+## **云原生网关与服务治理（Gateway / Envoy）**
 **技术关键词：Contour / Envoy / HTTPProxy / Ingress / OpenTelemetry / Kubernetes**
 #### **概述**
 基于 Contour + Envoy 构建云原生网关体系，支撑集群内统一流量接入、路由转发及网关侧可观测能力建设。
@@ -99,8 +95,7 @@ Supported arguments:
 #### **项目价值：**
 - 建立统一、可扩展、可观测的云原生网关能力，提升集群流量治理水平。
 - 为后续 Gateway API 演进及服务治理能力建设奠定基础。
-  
-### **云原生网络架构与多集群互通**
+## **云原生网络架构与多集群互通**
 **技术关键词：Cilium / eBPF / BGP / Underlay Network / Kubernetes**
 #### **概述**
 基于 Cilium BGP Underlay 模式设计并落地多集群网络方案，实现跨集群 Pod/Service 网络互通及底层网络可达能力。
@@ -113,8 +108,7 @@ Supported arguments:
 #### **项目价值：**
 - 提升多集群环境下的网络可达性、调试效率与运维便利性。
 - 为多活、多地域场景下的云原生架构建设提供网络基础能力。
-  
-### **云原生 DevOps 与持续交付体系构建** 
+## **云原生 DevOps 与持续交付体系构建** 
 **技术关键词：Jenkins / Argo CD / GitOps / Argo Rollouts / Prometheus / Trivy / SonarQube / Kubernetes**
 #### **概述**
 围绕容器云平台建设 CI/CD 与 GitOps 持续交付体系，提升多集群环境下的应用交付效率、发布安全性与变更可控性。
@@ -129,7 +123,6 @@ Supported arguments:
 #### **项目价值：**
 - 提升应用交付效率与发布安全性，降低人工操作风险。
 - 建立标准化、可观测、可回滚的多集群持续交付体系。
-  
 ## **相关技能**
 + 云原生与容器编排： Kubernetes、Helm、Kubean、Kubespray、Kind、Koordinator、MetalLB
 + 容器与运行时： Docker、Containerd、Podman
@@ -142,6 +135,5 @@ Supported arguments:
 + 中间件： Kafka、RocketMQ、Elasticsearch、Redis、MySQL、PostgreSQL、RabbitMQ
 + 网络： TCP/IP、HTTP、DNS、WebSocket、RPC、Calico、Cilium、BGP
 + 操作系统： CentOS、Ubuntu、RHEL、AlmaLinux、Windows
-  
 ## **个人总结**
   熟悉 Kubernetes 生态与云原生基础设施，具备容器平台部署、运维、故障排查及自动化运维能力。熟悉多集群管理、可观测性、服务治理、持续交付及常见中间件组件，并具备基于 vLLM、GPU Operator、HAMI 等技术的大模型服务与异构 GPU/NPU 资源管理实践经验，能够支撑云原生平台与 AI 场景下的建设、交付与运维保障工作。
