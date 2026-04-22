@@ -53,7 +53,7 @@ Supported arguments:
 - 结合 Service Mesh,Gateway API,Kyverno + NetWorkPolicy 实现**东西南北的流量治理与访问控制**,提升模型服务安全性与可控性。
 - 处理并推动解决兼容性,适配类关键问题,包括典型问题，**如vLLM 适配,NPU 驱动兼容,GPU 共享调度,推理链路接入,证书与网关联调**。
 
-## **云原生可观测体系建设（Tracing / Logging / Metrics）**
+## **云原生可观测体系建设**
 #### **主要负责内容**
 - 面向10套集群、96+业务场景，建设统一可观测平台，打通日志、指标与链路追踪能力。
 - 参与设计并落地基于 Fluent Bit → Kafka → Vector → Elasticsearch / Kibana 的日志链路,支撑 日均2TB，会员日峰值6TB规模的数据采集、传输、缓冲与检索。
@@ -61,7 +61,7 @@ Supported arguments:
 - 参与 SkyWalking 向 OpenTelemetry 的迁移与**数据聚合改造**，**处理5+项采集兼容、字段映射、链路连续性及数据一致性问题**。
 - 参与 Kafka 日志链路跨环境迁移与稳定性治理，处理12+项消费延迟、链路堆积、缓冲异常、迁移一致性等问题，保障日志链路稳定运行。
 
-## **云原生网关与服务治理（Gateway / Envoy）**
+## **云原生网关与服务治理**
 #### **主要负责内容**
 + 基于 Contour 构建网关控制面，监听 Kubernetes 集群内 HTTPProxy、Ingress 等资源，并动态下发至 Envoy 数据面。
 + 基于 Envoy 实现高性能网关流量转发能力，完成与集群内 Service 的联动，支持多域名及复杂路由策略配置。
@@ -70,7 +70,6 @@ Supported arguments:
 + 打通 Envoy 到 OpenTelemetry 及后端观测系统的链路数据采集，增强网关流量的可追踪性与问题定位能力。
 
 ## **云原生网络架构与多集群互通**
-
 #### **主要负责内容**
 + 在 Kubernetes 集群中部署 Cilium 网络插件，基于 BGP Underlay 模式构建云原生网络架构。
 + 实现跨集群 Pod 网络直连互通，打通集群边界，提升多集群场景下的网络连通性。
