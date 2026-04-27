@@ -4,8 +4,6 @@ title: Kalyan's Resume
 email:
   url: mailto:kalyan.zitiu@gmail.com
   text: kalyan.zitiu@gmail.com
-phone:
-  text: 19866803602
 city:
  text: Shenzhen, China 
 ---
